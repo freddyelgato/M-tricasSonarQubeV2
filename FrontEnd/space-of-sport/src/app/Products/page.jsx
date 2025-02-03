@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import ProductTable from './ProductTable';
 import ProductForm from './ProductForm';
 import styles from '../../styles/StartPageModule.css';
+import NavbarUser from "../../components/NavbarUser";
 
 const ProductsPage = () => {
   const [products, setProducts] = useState([]);
@@ -111,6 +112,7 @@ const ProductsPage = () => {
 
   return (
     <div className={styles.main}>
+      <NavbarUser/>
       <h1>📦 Product Management</h1>
       <div className={styles.buttons}>
         <button onClick={handleCreateProduct}>Create New Product</button>
