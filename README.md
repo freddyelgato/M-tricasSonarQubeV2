@@ -119,3 +119,4 @@ The system will be based on a **microservices/event-driven architecture**, deplo
 ## 🙌 Thanks for Your Attention!  
 **Let's build a revolutionary sports e-commerce platform together!**  
 # M-tricasSonarQubeV2
+# M-tricasSonarQubeV2
